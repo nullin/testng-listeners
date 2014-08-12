@@ -1,7 +1,8 @@
-package com.nullin.listener;
+package com.nullin.listener.test;
 
 import java.util.Random;
 
+import com.nullin.listener.SimpleExecStatusListener;
 import org.testng.SkipException;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.DataProvider;
