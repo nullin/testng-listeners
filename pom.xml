@@ -1,41 +1,41 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.nullin</groupId>
-  <artifactId>testng-listeners</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+    <groupId>com.nullin</groupId>
+    <artifactId>testng-listeners</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-  <name>testng-listeners</name>
-  <url>https://github.com/nullin/testng-listeners</url>
+    <name>testng-listeners</name>
+    <url>https://github.com/nullin/testng-listeners</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <distributionManagement>
         <repository>
-          <id>my-repo</id>
-          <url>https://github.com/nullin/mvn-repo</url>
+            <id>my-repo</id>
+            <url>https://github.com/nullin/mvn-repo</url>
         </repository>
-      </distributionManagement>
+    </distributionManagement>
 
-  <dependencies>
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>6.8.8</version>
-    </dependency>
-      <dependency>
-      	<groupId>org.eclipse.jetty</groupId>
-      	<artifactId>jetty-server</artifactId>
-      	<version>8.1.9.v20130131</version>
-      </dependency>
-      <dependency>
-      	<groupId>com.h2database</groupId>
-      	<artifactId>h2</artifactId>
-      	<version>1.4.178</version>
-      </dependency>
-  </dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>6.8.8</version>
+        </dependency>
+        <dependency>
+            <groupId>org.eclipse.jetty</groupId>
+            <artifactId>jetty-server</artifactId>
+            <version>8.1.9.v20130131</version>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <version>1.4.178</version>
+        </dependency>
+    </dependencies>
 </project>
